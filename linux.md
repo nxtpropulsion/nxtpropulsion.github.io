@@ -1,11 +1,9 @@
 ---
 layout: page
-title: CV
-permalink: /cv/
+title: Linux
+permalink: /linux/
 ---
 
-CV content: in-progress...
-
-The contents 
+Linux-related content: in-progress...
 
 [jekyll-organization]: https://github.com/jekyll
