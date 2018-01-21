@@ -23,6 +23,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: nxtpropulsion
 github_username:  nxtpropulsion
 
+![useful image]({{site.url}}/assets/nxtpropulsion_logo.png)
+
 # Build settings
 markdown: kramdown
 theme: minima
