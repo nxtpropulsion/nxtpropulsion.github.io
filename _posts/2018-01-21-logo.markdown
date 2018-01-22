@@ -6,7 +6,9 @@ categories: jekyll update
 ---
 Got a logo that I'm happy with - here it is!
 
+<!--- 
 ![my logo](https://nxtpropulsion.github.io/assets/nxtpropulsion_logo.png)
+-->
 
 <img src="https://nxtpropulsion.github.io/assets/nxtpropulsion_logo.png" width="50%" height="50%">
 
