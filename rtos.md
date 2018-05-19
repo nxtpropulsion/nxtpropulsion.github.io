@@ -4,13 +4,15 @@ title: RTOS
 permalink: /rtos/
 ---
 
-RTOS Setup Notes on the STM32F4X
+FreeRTOS Setup Notes on the STM32F4X - will work for Windows/Linux/MacOS
 
-1. Create two folders in directory of choice
+1. Create two folders in directory of choice:
 + eclipse_workspace
 + software_and_toolchain
-2. Item 2
-3. Item 3
+2. Download **Eclipse IDE for C/C++ Developers** via [Eclipse](http://www.eclipse.org). At the time of this write-up: Oxygen 3a - May 19, 2018.
+3. Download **Cross-Toolchain for ARM Cortex Processor** via [ARM Developer](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads). At the time of this write-up: Version 7-2017-q4-major (Released: December 18, 2017). Extract into _software_and_toolchain_.
+4. Download **GNU ARM Eclipse Plugins** via [GNU MCU Eclipse](https://github.com/gnu-mcu-eclipse). Or install manually via URL in Eclipse [GNU MCU Eclipse Plug-ins](http://gnu-mcu-eclipse.netlify.com/v4-neon-updates/). At the time of this write-up: v4.3.3-201804191501.
+
 
 
 
