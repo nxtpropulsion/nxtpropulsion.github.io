@@ -15,7 +15,7 @@ FreeRTOS Setup Notes on the STM32F4X - will work for Windows/Linux/MacOS
 
 `_http://gnu-mcu-eclipse.netlify.com/v4-neon-updates/`
 
-	At the time of this write-up: v4.3.3-201804191501.
+At the time of this write-up: v4.3.3-201804191501.
 5. Start Eclipse and select directory _eclipse_workspace_ when asked
 6. Then goto Help > Install New Software...
 7. In the `_Work with` Click on 'Add'
@@ -23,7 +23,7 @@ FreeRTOS Setup Notes on the STM32F4X - will work for Windows/Linux/MacOS
 
 `_http://gnu-mcu-eclipse.netlify.com/v4-neon-updates/`
 
-	from step 4.
+from step 4.
 9. After Eclipse loads up the GNU MCU C/C++ software list, select the following:
 - GNU MCU C/C++ ARM Cross Compiler
 - GNU MCU C/C++ Generic Cortex-M Project Template
@@ -33,12 +33,18 @@ FreeRTOS Setup Notes on the STM32F4X - will work for Windows/Linux/MacOS
 - GNU MCU C/C++ QEMU Debugging
 - GNU MCU C/C++ STM32Fx Project Templates
 Then click Next > Next > Accept terms of license agreement > Finish. Eclipse will install all the software selected.
-10. If you need to install for Windows, you'll need make, rm, mkdir etc. Goto the link in Step 4 and select `_windows-build-tools`.
+10. If you need to install for Windows, you'll need make, rm, mkdir etc. Goto the link in Step 4 and select `_windows-build-tools`. You don't need to do anything if Linux/MacOS.
 11. Select the required release and install it into your 'software_and_toolchain' directory. If you encounter an error, use:
 
 `_https://www.dropbox.com/s/cfmk4bpjzce5rek/echonotfound.mp4?dl=0`
 
-12. 
+12. Goto the link mentioned in Step 4 and Step 8, and Click on `_openocd`. Download and extract the required release the software and toolchain folder.
+
+**Now for the Hello World aka 'BLINKY' application!**
+
+13. Start a new project: File > New > C Project. Give it a name like blinky-STM32F34_NUCLEO.
+14. In Project type: select `_Hello World ARM Cortex-M C/C++ Project`
+15. 
 
 
 
