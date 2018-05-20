@@ -24,7 +24,19 @@ At the time of this write-up: v4.3.3-201804191501.
 `_http://gnu-mcu-eclipse.netlify.com/v4-neon-updates/`
 
 from step 4.
-9. 
+9. After Eclipse loads up the GNU MCU C/C++ software list, select the following:
+- GNU MCU C/C++ ARM Cross Compiler
+- GNU MCU C/C++ Generic Cortex-M Project Template
+- GNU MCU C/C++ J-Link Debugging
+- GNU MCU C/C++ OpenOCD Debugging
+- GNU MCU C/C++ Packs (Experimental)
+- GNU MCU C/C++ QEMU Debugging
+- GNU MCU C/C++ STM32Fx Project Templates
+Then click Next > Next > Accept terms of license agreement > Finish. Eclipse will install all the software selected.
+10. If you need to install for Windows, you'll need make, rm, mkdir etc. Goto the link in Step 4 and select `_windows-build-tools`.
+11. Select the required release and install it into your 'software_and_toolchain' directory.
+12. 
+
 
 
 
