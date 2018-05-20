@@ -16,7 +16,15 @@ FreeRTOS Setup Notes on the STM32F4X - will work for Windows/Linux/MacOS
 `_http://gnu-mcu-eclipse.netlify.com/v4-neon-updates/`
 
 At the time of this write-up: v4.3.3-201804191501.
+5. Start Eclipse and select directory _eclipse_workspace_ when asked
+6. Then goto Help > Install New Software...
+7. In the `_Work with` Click on 'Add'
+8. In the name field, put in GNU MCU Eclipse Plugin and for Location:
 
+`_http://gnu-mcu-eclipse.netlify.com/v4-neon-updates/`
+
+from step 4.
+9. 
 
 
 
