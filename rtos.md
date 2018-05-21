@@ -47,6 +47,24 @@ Then click Next > Next > Accept terms of license agreement > Finish. Eclipse wil
 
 <img src="https://nxtpropulsion.github.io/assets/nocturnal.png" width="25%" height="25%">
 
+15. Fill in your target processor settings.
+16. In Folders, change the Vendor CMSIS name to your target processor series name -> i.e. stm32f4xx
+17. In the GNU ARM Cross Toolchain window - copy the bin folder path to `_Toolchain path:`. Example:
 
+`_~/eclipse-workspace/Software&Toolchain/gcc-arm-none-eabi-7-2017-q4-major/bin`
+
+18. Toolchain name: GNU ARM Embedded Toolchain. Click Finish.
+19. In >ldscripts>mem.ld, change Flash and RAM values as defined to your processor.
+20. Download CMSIS at:
+
+`_https://github.com/ARM-software/CMSIS`
+
+and extract. We're only using the CMSIS-CORE.
+21. Integrate MCU Peripheral Library (Device HAL). Download STM32CubeMX via
+
+`_http://www.st.com/en/development-tools/stm32cubemx.html`
+
+At the time of these instructions: version 4.25.1
+22. 
 
 [jekyll-organization]: https://github.com/jekyll
