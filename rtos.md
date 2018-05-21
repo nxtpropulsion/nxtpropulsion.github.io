@@ -60,11 +60,21 @@ Then click Next > Next > Accept terms of license agreement > Finish. Eclipse wil
 `_https://github.com/ARM-software/CMSIS`
 
 and extract. We're only using the CMSIS-CORE.
-21. Integrate MCU Peripheral Library (Device HAL). Download STM32CubeMX via
+21. Integrate MCU Peripheral Library (Device HAL). Download STM32CubeMX and install via
 
 `_http://www.st.com/en/development-tools/stm32cubemx.html`
 
 At the time of these instructions: version 4.25.1
-22. 
+22. Once installed, start STM32CubeMX and select 'New Project'
+23. Select board selector and get board : ie STM32F413
+24. Once loaded up, goto Project > Settings
+25. Give a Project Name
+26. Create a new Project Folder (aka CubeMX_Projects) and place into the home director of Step 1
+27. In Toolchain/IDE, select: SW4STM32.
+28. Goto Project > Generate Code
+29. Place HAL drivers (inc and src) from the generated code into the Eclipse project `_stm32f4xx` folder (system > include/src > stm32f4xx)
+30. Place CubeMX generated CMSIS inc files (CMSIS > Include) into Eclipse: system > include > cmsis
+31. Also include these files Device > ST > STM32F4xx > Include and paste them into the same folder as in Step 30.
+32. [Section 7, Lecture 35]
 
 [jekyll-organization]: https://github.com/jekyll
