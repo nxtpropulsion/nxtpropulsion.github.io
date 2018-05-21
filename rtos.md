@@ -45,8 +45,7 @@ Then click Next > Next > Accept terms of license agreement > Finish. Eclipse wil
 13. Start a new project: File > New > C Project. Give it a name like blinky-STM32F34_NUCLEO.
 14. In Project type: select `_Hello World ARM Cortex-M C/C++ Project`
 
-<img src="nocturnal.png" width="200" height="200"/>
-
+<img src="https://nxtpropulsion.github.io/assets/nocturnal.png" width="50%" height="50%">
 
 
 
