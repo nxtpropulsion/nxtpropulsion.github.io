@@ -75,6 +75,18 @@ At the time of these instructions: version 4.25.1
 29. Place HAL drivers (inc and src) from the generated code into the Eclipse project `_stm32f4xx` folder (system > include/src > stm32f4xx)
 30. Place CubeMX generated CMSIS inc files (CMSIS > Include) into Eclipse: system > include > cmsis
 31. Also include these files Device > ST > STM32F4xx > Include and paste them into the same folder as in Step 30.
-32. [Section 7, Lecture 35]
+32. [Section 7, Lecture 35]: 
+
+3X.
+
+40. [Section 7, Lecture 48] - Loading up FreeRTOS: Start a new C project and give it a name: FreeRTOS-HelloWorld.
+41. 
+
+**FreeRTOS Important Links**
+A. www.freertos.org
+B. http://www.freertos.org/Creating-a-new-FreeRTOS-project.html
+C. http://www.freertos.org/FreeRTOS-quick-start-guide.html
+D. http://shop.freertos.org/FreeRTOS_tutorial_books_and_reference_manuals_s/1825.htm
+
 
 [jekyll-organization]: https://github.com/jekyll
