@@ -83,10 +83,14 @@ At the time of these instructions: version 4.25.1
 41. 
 
 **FreeRTOS Important Links**
-A. www.freertos.org
-B. http://www.freertos.org/Creating-a-new-FreeRTOS-project.html
-C. http://www.freertos.org/FreeRTOS-quick-start-guide.html
-D. http://shop.freertos.org/FreeRTOS_tutorial_books_and_reference_manuals_s/1825.htm
+A. [FreeRTOS site](www.freertos.org)
+
+B. [Create a new project in FreeRTOS](http://www.freertos.org/Creating-a-new-FreeRTOS-project.html)
+
+C. [FreeRTOS Quick Start Guide](http://www.freertos.org/FreeRTOS-quick-start-guide.html)
+
+D. [FreeRTOS books and references](http://shop.freertos.org/FreeRTOS_tutorial_books_and_reference_manuals_s/1825.htm)
+
 
 
 [jekyll-organization]: https://github.com/jekyll
