@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hello, I'm Ron and this is my personal tech blog to chronical my coding and tech-related topics. Over the years, I've read many blogs and forums for answers to my millions of questions. So now, I hope to give back and contribute my share to future developers and innovators.
+Hello, welcome to my personal tech blog to chronical my coding and tech-related topics. Over the years, I've read many blogs and forums for answers to my millions of questions. So now, I hope to give back and contribute my share to future developers and innovators.
 
 I'm currently an electronics and instrumentation engineer working for the R&D division of an aerospace company. My passion for working in engineering stems from many years in academics working on bleeding edge biomedical and robotics projects. However, my true passion is in drone development and AI.
 Anything I write here does not reflect the opinion of my employer in any way.
